@@ -42,7 +42,7 @@ public class Sound
   public void trimSilenceFromBeginning()
   {
     int i = 0;
-    while(samples[i] == 0)
+    while(i < samples.length && samples[i] == 0)
       {
         i++; 
       }
