@@ -47,7 +47,7 @@ public class Sound
         i++; 
       }
     int [] trimmedSamples = new int [samples.length-i]; 
-    for(int j = 0; j<samples.length; j++)
+    for(int j = 0; j<trimmedSamples.length; j++)
       {
           trimmedSamples[j] = samples[j+i];
       }
